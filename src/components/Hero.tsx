@@ -14,7 +14,9 @@ function Hero() {
           className="text-5xl font-extrabold leading-tight tracking-tight sm:text-7xl md:text-8xl animate-fade-up"
           style={{ animationDelay: '0.2s', opacity: 0 }}
         >
-          <span className="text-gradient">AI 概論</span>
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-300 via-green-400 to-teal-400">
+            AI 概論
+          </span>
           <br />
           <span className="text-white">初級班</span>
         </h1>
